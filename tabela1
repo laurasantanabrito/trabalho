@@ -11,6 +11,9 @@
 <font color="pink"><h3>Minha Primeira Tabela</h3></font>
 
 <table align="center" border="1" bgcolor="pink" bordercolor="blue" cellpadding="10" cellspacing="5">
+<tr>
+<td colspan="2">Minha Tabela</td>
+</td>
 	<tr bgcolor="white">
 		<td><b>Nome</b></td>
 		<td><b>Idade</b></td>
@@ -20,8 +23,11 @@
 		<td bgcolor="white">15</td>
 	</tr>
 	<tr>
-		<td>Maria</td>
+		<td rowspan="2">Maria</td>
 		<td>16</td>
+		</tr>
+		<tr>
+		<td bgcolor="white">16</td>
 	</tr>
 	</table>
 	</body>
